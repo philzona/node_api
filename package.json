@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "dev:setup": "cp dev-data/data/tours-simple.json dev-data/data/tours-modified.json"
   },
   "author": "",
   "license": "ISC",
